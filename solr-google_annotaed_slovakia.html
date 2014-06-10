@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <script type='text/javascript' src='http://www.google.com/jsapi'></script>
+    <script type='text/javascript' src='solr-google_annotaed_slovakia.js'></script>
+	<title>Slovakia</title>
+	<style type="text/css">
+        
+       .main-container
+		{
+        width:957px;
+		height: 360;
+		margin-left:auto;
+		margin-right:auto;
+		vertical-align: middle
+		}
+    .left-section{
+      width: 700px;
+	  height: 360;
+      float: left;
+	  vertical-align: middle
+    }
+    .right-section
+    {	   
+       width: 250px;
+	   height: 360;
+       float:right;
+	   border-style: solid;
+	   border-color: #A9A9A9;
+	   vertical-align: middle
+    }
+	.LR-section
+    {
+	margin-left:30px;
+	}
+	.inner-left-section
+    {
+	float:left;
+	width:49%;
+	height: 305px;
+	border-right:1px solid black;
+	}
+	.inner-right-section
+    {
+	float:right;
+	width:50%;
+	}
+	.bottom-section
+    {
+	width:900;
+	margin: auto;
+	}
+	</style> 
+  </head>
+
+  <body>
+    
+    <div class="main-container">
+	<div id='chart_div' class="left-section" >
+	</div>
+	<div id='chk_box' class="right-section" title="Topics">
+	<p align="center" style="color:blue;font-size:15px;font-weight:bold;">Slovakia</p><hr></hr>
+	<div class="inner-left-section">
+	<p style="font-size:15px;font-weight:bold;">  Group Topics</p>
+	<input id="group1" type="checkbox" name="chk_group1" value="value1" onclick='handleClickT1(this);' title="Europe, Enlargement"/>Topic 1<br />
+	<div class="LR-section">
+	<input id="group1L" type="checkbox" name="chk_group1L" value="value11" onclick='handleClickT1L(this);' title="Liberals"/>Liberals<br />
+	<input id="group1R" type="checkbox" name="chk_group1R" value="value12" onclick='handleClickT1R(this);' title="Liberals"/>Radicals<br />
+	</div>
+	<input id="group2" type="checkbox" name="chk_group2" value="value2" onclick='handleClickT2(this);' title="Minorities, Gypsies, Roma, Hungarians, Gypsy problem, minority rights, rights of Hungarians, dual citizenship"/>Topic 2<br />
+	<div class="LR-section">
+	<input id="group2L" type="checkbox" name="chk_group2L" value="value11" onclick='handleClickT2L(this);' title="Liberals"/>Liberals<br />
+	<input id="group2R" type="checkbox" name="chk_group2R" value="value12" onclick='handleClickT2R(this);' title="Liberals"/>Radicals<br />
+	</div>
+	<input id="group3" type="checkbox" name="chk_group3" value="value33" onclick='handleClickT3Group(this);' title="Identity: people, Slovaks, nation (narod, ludi, ludia,  Slovaci, Slovensky)"/>Topic 3<br />
+	<div class="LR-section">
+	<input id="group3L" type="checkbox" name="chk_group3L" value="value11" onclick='handleClickT3LGroup(this);' title="Liberals"/>Liberals<br />
+	<input id="group3R" type="checkbox" name="chk_group3R" value="value12" onclick='handleClickT3RGroup(this);' title="Liberals"/>Radicals<br />
+	</div>
+	<input id="group4" type="checkbox" name="chk_group4" value="value33" onclick='handleClickT4Group(this);' title="Language: language law. law, education, school, minority language  (zakon, skolstva, skolstvo, skoly), linguistic, school act"/>Topic 4<br />
+	<div class="LR-section">
+	<input id="group4L" type="checkbox" name="chk_group4L" value="value11" onclick='handleClickT4LGroup(this);' title="Liberals"/>Liberals<br />
+	<input id="group4R" type="checkbox" name="chk_group4R" value="value12" onclick='handleClickT4RGroup(this);' title="Liberals"/>Radicals<br />
+	</div>
+	</div>
+	<div class="inner-right-section">
+	<p style="font-size:15px;font-weight:bold;">  Grid Topics</p>
+	<input id="grid1" type="checkbox" name="chk_grid" value="value1" onclick='handleClickT3(this);' title="Europe, Enlargement"/>Topic 1<br />
+	<div class="LR-section">
+	<input id="grid1L" type="checkbox" name="chk_grid1L" value="value11" onclick='handleClickT3L(this);' title="Liberals"/>Liberals<br />
+	<input id="grid1R" type="checkbox" name="chk_grid1R" value="value12" onclick='handleClickT3R(this);' title="Liberals"/>Radicals<br />
+	</div>
+	<input id="grid2" type="checkbox" name="chk_grid" value="value2" onclick='handleClickT4(this);' title="Economics: Regional development, grant, regions, economic policy" />Topic 2<br />
+	<div class="LR-section">
+	<input id="grid2L" type="checkbox" name="chk_grid2L" value="value11" onclick='handleClickT4L(this);' title="Liberals"/>Liberals<br />
+	<input id="grid2R" type="checkbox" name="chk_grid2R" value="value12" onclick='handleClickT4R(this);' title="Liberals"/>Radicals<br />
+	</div>
+	<input id="grid3" type="checkbox" name="chk_grid3" value="value3" onclick='handleClickT5(this);' title="Interstate Relations: Hungary (Madarsko), Orban, Budapest" />Topic 3<br />
+	<div class="LR-section">
+	<input id="grid3L" type="checkbox" name="chk_grid3L" value="value11" onclick='handleClickT5L(this);' title="Liberals"/>Liberals<br />
+	<input id="grid3R" type="checkbox" name="chk_grid3R" value="value12" onclick='handleClickT5R(this);' title="Liberals"/>Radicals<br />
+	</div>
+	</div>
+	</div>
+	
+	</div>
+	<div class="bottom-section" >
+	<p  style="font-size:15px;font-weight:bold;text-align=center;color:red;font-family:arial">Group Topics</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Group Topic 1: Europe, Enlargement</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Group Topic 2: Minorities, Gypsies, Roma, Hungarians, Gypsy problem, minority rights, rights of Hungarians, dual citizenship</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Group Topic 3: Identity: people, Slovaks, nation (narod, ludi, ludia,  Slovaci, Slovensky)</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Group Topic 4: Language, language law, law, education, school, minority language  (zakon, skolstva, skolstvo, skoly), linguistic, school act</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=center;color:red;font-family:arial">Grid Topics</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Grid Topic 1: Europe, Enlargement</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Grid Topic 2: Economics: Regional development, grant, regions, economic policy</p>
+	<p  style="font-size:15px;font-weight:bold;text-align=left">Grid Topic 3: Interstate Relations: Hungary (Madarsko), Orban, Budapest</p>
+		
+	</div>
+	<script>
+	var slovakia_chart = new google.visualization.AnnotatedTimeLine(document.getElementById('chart_div'));
+    var slovakia_data = new google.visualization.DataTable();
+	</script>
+  </body>
+</html>
