@@ -1,0 +1,29 @@
+<dataConfig>
+  <dataSource name="mysql" encoding="UTF-8" type="JdbcDataSource" driver="org.postgresql.Driver" url="jdbc:postgresql://127.0.0.1:5432/EU" user="postgres" password="saudsaud" />
+  <document>
+    <entity name="Romania" 
+	pk="id"
+	dataSource = "mysql"
+	query="select * from hungary r, hungary_org RO where RO.tid = r.id and org_name='Lehet' ">
+      <field column="id" name="doc_id" />
+	  <field column="file_name" name="file_name" />
+	  <field column="r_file_content" name="h_file_content" />
+      <field column="article_date" name="date" />
+	   <field column="tid" name="tid" />
+      <field column="org_name" name="org_name" />
+	  <field column="org_type" name="org_type" />	
+	   <field column="country" name="country" />	
+	  
+	   <!--entity name="Romania_org" 
+	   pk="tid"
+	  dataSource = "mysql"
+	   query="select RO.org_name from Romania_org RO where RO.tid = R.id ">
+      <field column="tid" name="tid" />
+      <field column="org_name" name="org_name" />
+	  <field column="org_type" name="org_type" />
+      </entity-->
+   
+   </entity>  
+   
+  </document>
+</dataConfig>
