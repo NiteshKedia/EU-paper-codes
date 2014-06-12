@@ -4,11 +4,11 @@
     <entity name="Romania" 
 	pk="id"
 	dataSource = "mysql"
-	query="select * from hungary r, hungary_org RO where RO.tid = r.id and org_name='Lehet' ">
+	query="select * from Slovakia r, Slovakia_org RO where RO.tid = r.id">
       <field column="id" name="doc_id" />
 	  <field column="file_name" name="file_name" />
 	  <field column="r_file_content" name="h_file_content" />
-      <field column="article_date" name="date" />
+      <field column="article_date" name="article_date" />
 	   <field column="tid" name="tid" />
       <field column="org_name" name="org_name" />
 	  <field column="org_type" name="org_type" />	
