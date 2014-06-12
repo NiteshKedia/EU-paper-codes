@@ -252,7 +252,7 @@
 	<!--<field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/> -->
    <field name="file_name" type="string" indexed="true" stored="true"/>
    <field name="h_file_content" type="text_ro" indexed="true" stored="true"/> 
-   <field name="date" type="tdate" indexed="true" stored="true"/>   
+   <field name="article_date" type="tdate" indexed="true" stored="true"/>   
 	<field name="tid" type="int" indexed="true" stored="true" required="true" multiValued="false"/> 
    <field name="org_name" type="string" indexed="true" stored="true"/>
    <field name="org_type" type="string" indexed="true" stored="true"/>
