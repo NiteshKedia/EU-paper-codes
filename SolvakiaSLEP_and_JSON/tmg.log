@@ -1,0 +1,414 @@
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 07-Jan-2014 13:54:00...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\plain
+Delimiter: 				none delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\stopwords\stopwords_ro.txt
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			50
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 1971
+Number of terms = 46700
+Average number of terms per document (before the normalization) = 713.097
+Average number of indexing terms per document = 376.88
+Sparsity = 0.539795%
+
+Removed 363 stopwords...
+Removed 225 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 07-Jan-2014 14:01:04...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\plain
+Delimiter: 				none delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\stopwords\stopwords_ro.txt
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			50
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 1971
+Number of terms = 46645
+Average number of terms per document (before the normalization) = 713.097
+Average number of indexing terms per document = 367.505
+Sparsity = 0.533133%
+
+Removed 417 stopwords...
+Removed 225 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 07-Jan-2014 14:32:36...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\plain
+Delimiter: 				none delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\stopwords\stopwords_ro.txt
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			50
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 1971
+Number of terms = 46643
+Average number of terms per document (before the normalization) = 713.097
+Average number of indexing terms per document = 359.776
+Sparsity = 0.531242%
+
+Removed 419 stopwords...
+Removed 225 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 07-Jan-2014 14:39:26...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\plain
+Delimiter: 				none delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\stopwords\stopwords_ro.txt
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			50
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 1971
+Number of terms = 46643
+Average number of terms per document (before the normalization) = 713.097
+Average number of indexing terms per document = 359.776
+Sparsity = 0.531242%
+
+Removed 419 stopwords...
+Removed 225 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 09-Jan-2014 14:45:20...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\Destination-Grid Topic 2
+Delimiter: 				none delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\stopwords\stopwords_ro.txt
+Update Step: 				10000
+Minimum Length: 			2
+Maximum Length: 			50
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 80
+Number of terms = 333
+Average number of terms per document (before the normalization) = 15.55
+Average number of indexing terms per document = 9.45
+Sparsity = 2.80781%
+
+Removed 89 stopwords...
+Removed 3 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 09-Jan-2014 14:47:08...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\Destination-Grid Topic 2
+Delimiter: 				none delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			C:\Users\Sultan\Documents\MATLAB\Romania\Data\Romania\stopwords\stopwords_ro.txt
+Update Step: 				10000
+Minimum Length: 			2
+Maximum Length: 			50
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 80
+Number of terms = 333
+Average number of terms per document (before the normalization) = 15.55
+Average number of indexing terms per document = 9.45
+Sparsity = 2.80781%
+
+Removed 89 stopwords...
+Removed 3 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 12-Jun-2014 14:33:05...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\SolvakiaSLEP\Data\Slovakia\plain
+Delimiter: 				emptyline
+Line Delimiter: 			Yes
+Stoplist Filename: 			-nostoplist
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			30
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 4899
+Number of terms = 101395
+Average number of terms per document (before the normalization) = 445.793
+Average number of indexing terms per document = 344.198
+Sparsity = 0.237396%
+
+Removed 349 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 12-Jun-2014 14:41:27...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\SolvakiaSLEP\Data\Slovakia\plain
+Delimiter: 				emptyline
+Line Delimiter: 			Yes
+Stoplist Filename: 			-nostoplist
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			30
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	inverse document frequency (IDF)
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 4899
+Number of terms = 101395
+Average number of terms per document (before the normalization) = 445.793
+Average number of indexing terms per document = 344.198
+Sparsity = 0.237396%
+
+Removed 349 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 12-Jun-2014 18:49:36...
+Using the Perl implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\SolvakiaSLEP\Data\Slovakia\plain
+Delimiter: 				none_delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			-nostoplist
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			30
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 4899
+Number of terms = 101395
+Average number of terms per document (before the normalization) = 445.793
+Average number of indexing terms per document = 344.198
+Sparsity = 0.237396%
+
+Removed 349 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 19-Jun-2014 16:17:24...
+Using the MATLAB implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\SolvakiaSLEP_and_JSON\.\Data\Slovakia\plain
+Delimiter: 				none_delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			-nostoplist
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			30
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 183
+Number of terms = 27046
+Average number of terms per document (before the normalization) = 838.12
+Average number of indexing terms per document = 649.475
+Sparsity = 1.69131%
+
+Removed 210 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 19-Jun-2014 16:24:24...
+Using the MATLAB implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\SolvakiaSLEP_and_JSON\.\Data\Slovakia\plain
+Delimiter: 				none_delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			-nostoplist
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			30
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 183
+Number of terms = 27046
+Average number of terms per document (before the normalization) = 838.12
+Average number of indexing terms per document = 649.475
+Sparsity = 1.69131%
+
+Removed 210 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================
+==================================================================================================================================================================
+Running tmg (tmg_p.m) on 19-Jun-2014 18:29:04...
+Using the MATLAB implementation...
+Input File/Directory: 			C:\Users\Sultan\Documents\MATLAB\SolvakiaSLEP_and_JSON\.\Data\Slovakia\plain
+Delimiter: 				none_delimiter
+Line Delimiter: 			Yes
+Stoplist Filename: 			-nostoplist
+Update Step: 				10000
+Minimum Length: 			3
+Maximum Length: 			30
+Minimum Local Frequency: 		1
+Maximum Local Frequency: 		Inf
+Minimum Global Frequency: 		1
+Maximum Global Frequency: 		Inf
+Local Term Weighting Function: 		term frequency
+Global Term Weighting Function: 	none
+Using Normalization: 			no
+Using Stemming: 			no
+
+=================================================================================
+Results:
+=================================================================================
+Number of documents = 183
+Number of terms = 27046
+Average number of terms per document (before the normalization) = 838.12
+Average number of indexing terms per document = 649.475
+Sparsity = 1.69131%
+
+Removed 210 terms using the term-length thresholds...
+Removed 0 terms using the global thresholds...
+Removed 0 elements using the local thresholds...
+Removed 0 empty terms...
+Removed 0 empty documents...
+=================================================================================

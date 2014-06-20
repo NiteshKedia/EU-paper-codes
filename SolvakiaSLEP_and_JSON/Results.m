@@ -1,0 +1,53 @@
+%%% LeastR 
+%%% 10 fold cross validation for bi-class %%%
+group = length(Y);
+indices = crossvalind('Kfold',group,10);
+meanVector=[];
+
+tic;
+for i = 1:10
+    test = (indices == i); train = ~test;
+    ATrain=A(train,:);  % Training data
+    yTrain=y(train);    % Training y
+    [xTrain, funValTrain, ValueLTrain] = LeastR(ATrain, yTrain, rho, opts);
+    ATest = A(test,:);  % Testing data
+    yTest = y(test);    % Testing y
+    
+    yResult = ATest * xTrain;
+    yResultLogic = yResult > 0;
+    
+    meanVector(i) = length(find(yResultLogic == yTest)) / length(yTest);
+end
+toc;
+
+accuracy = mean(meanVector)
+
+%%% LogisticsR
+%%% 10 fold cross validation for bi-class %%%
+group = length(y);
+indices = crossvalind('Kfold',group,10);
+meanVector=[];
+
+tic;
+for i = 1:10
+    i
+    test = (indices == i); train = ~test;
+    ATrain=A(train,:);  % Training data
+    yTrain=y(train);    % Training y
+    [xTrain, cTrain, funValTrain, ValueLTrain] = LogisticR(ATrain, yTrain, rho, opts);
+    
+    ATest = A(test,:);  % Testing data
+    yTest = y(test);    % Testing y
+    
+    cmat = repmat(cTrain,size(ATest,1),1);
+    yexp = exp(ATest * xTrain + cmat);
+    ypred = yexp ./ (yexp + 1);
+    ypredResult = ypred > 0.5;
+    ypredResult = double(ypredResult);
+    ypredResult(ypredResult==0)=-1;
+    accuracy = length(find(ypredResult == yTest)) / length(ypred);
+    meanVector = [meanVector;accuracy];    
+end
+toc;
+
+accuracy = mean(meanVector)
